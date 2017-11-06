@@ -1,6 +1,6 @@
 # **Exercice Beedeez**
 
-Pour cet exercice vous devrez créer une application listant différentes leçons (appeler "des capsules"). Pour cela vous devrez faire une requête sur la route d'API fournit, stocker les capsules dans un reducer ([redux](http://redux.js.org/)) et afficher les capsules sur la page. Une fonctionnalité devra être mis en place pour rechercher une capsule sur la page via une barre de recherche.
+Pour cet exercice vous devrez créer une application listant différentes leçons (appelé "des capsules"). Pour cela vous devrez faire une requête sur la route d'API fournit, stocker les capsules dans un reducer ([redux](http://redux.js.org/)) et afficher les capsules sur la page. Une fonctionnalité devra être mis en place pour rechercher une capsule sur la page via une barre de recherche.
 
 La route devant être utilisé est la suivante :
 
