@@ -13,13 +13,16 @@ Pour cela vous devrez impérativement utiliser les technologies suivantes:
 - [redux](http://redux.js.org/) & [react-redux](https://github.com/reactjs/react-redux)
 - [webpack](https://webpack.github.io/) & [babel](https://babeljs.io/)
 
+nous suggerons de se baser sur https://github.com/facebookincubator/create-react-app
+
 Chaque fonctionnalité supplémentaire sera prise en compte en tant que BONUS ! Alors lâchez-vous ;)
+
 
 ## **Recommandation et Bonus**
 
 - **Recommandation** :
 
-- Utiliser [Immutable JS](https://facebook.github.io/immutable-js/) peut s'avérer utile pour être sûr garder des fonctions pures dans les reducers
+- Utiliser [Immutable JS](https://facebook.github.io/immutable-js/) peut s'avérer utile pour garder des fonctions pures dans les reducers
 - Utiliser [reselect](https://github.com/reactjs/reselect) peut s'avérer utile pour récupérer les données stockées par redux
 
 - **Bonus**:
@@ -30,6 +33,9 @@ Chaque fonctionnalité supplémentaire sera prise en compte en tant que BONUS ! 
 - Implémenter [Flow](https://flow.org/) pour typer l'application (bon courage pour celle là x') )
 - Implémenter un système de pagination (vous récupérez 200 leçons). (Attention à ne pas casser la recherche).
 - Implémentation de [i18next](https://www.i18next.com/) pour traduire votre app.
+
+pour nous envoyer votre résultat, merci de soumettre une Pull Request sur le projet actuel.
+En cas de questions, vous pouvez créer une issue sur le projet.
 
 ## ***BON COURAGE ! ;-)***
 
