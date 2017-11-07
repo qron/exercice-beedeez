@@ -1,4 +1,4 @@
-# **Exercice Beedeez**
+# **Evaluation compétence / entretien Beedeez**
 
 Pour cet exercice vous devrez créer une application listant différentes leçons (appelées "capsules"). Pour cela, vous devrez faire une requête sur la route d'API fournie, stocker les capsules dans un reducer ([redux](http://redux.js.org/)) et afficher les capsules sur la page. Une fonctionnalité devra être mise en place pour rechercher une capsule sur la page via une barre de recherche.
 
