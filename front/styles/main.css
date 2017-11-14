@@ -1,0 +1,138 @@
+html, body {
+  background-color: #E0E0E0;
+  font-family: "Lucida Grande", Arial;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+  color: #616161;
+}
+
+.search-bars {
+  background-color: #26C6DA;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.search-bars > .headers {
+  background-color: #26C6DA;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-size: x-large;
+  margin: 0;
+  padding: 0.5rem;
+  text-align: center;
+}
+.search-bars > form {
+  align-items: center;
+  display: flex;
+}
+.search-bars > form > label {
+  margin: 0.5rem;
+  margin-right: 0;
+}
+.search-bars > form > input {
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px transparent;
+  color: white;
+  flex: 1;
+  font-size: large;
+  margin: 0.5rem;
+  margin-left: 0;
+  padding: 0.5rem;
+  transition: border-color 1000ms;
+}
+.search-bars > form > input:focus {
+  border-color: white;
+  outline: none;
+}
+
+.capsules-lists {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.capsules {
+  background-color: #F5F5F5;
+  border-radius: 1px;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2), 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
+  position: relative;
+  width: 360px;
+}
+
+.capsules > header > .headers {
+  color: #00ACC1;
+  font-size: 0.8rem;
+  margin: 0;
+  padding: 0.5rem;
+}
+.capsules > section > p {
+  margin: 0;
+  margin-bottom: 4rem;
+  padding: 0.5rem;
+}
+.capsules > .footers {
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+  width: 100%;
+}
+
+.badges {
+  align-items: center;
+  background-color: #26C6DA;
+  border-radius: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  font-size: small;
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.badges > .material-icons {
+  margin-right: 0.5rem;
+}
+
+/* Loaders */
+.loaders {
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  border: 2px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top: 2px solid #26C6DA;
+  height: 25vh;
+  left: calc(50% - 25vh / 2);
+  position: absolute;
+  top: calc(50% - 25vh / 2);
+  width: 25vh;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 767px) {
+  .capsules-lists {
+    flex-direction: column;
+    align-items: center;
+  }
+  .capsules {
+    width: 100%;
+    margin: 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  }
+}
